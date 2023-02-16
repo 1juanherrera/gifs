@@ -8,7 +8,7 @@ function App() {
   // STATES
 
   const [ data, setData ] = useState([])
-  const [ search, setSearch ] = useState('spiderman')
+  const [ search, setSearch ] = useState('superman')
   
 
     const url = `http://api.giphy.com/v1/gifs/search?q=${search}&api_key=ixkjEuA4OTXxCLZibf9WaszsjvlGsPD7&limit=15`
