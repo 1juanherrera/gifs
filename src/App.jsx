@@ -45,7 +45,7 @@ function App() {
             </div>
             <form onSubmit={(e) => searchGif(e)} 
                   className='search'>
-                    <input required placeholder='spiderman...' className='input__text' type="text" />
+                    <input required placeholder='superman...' className='input__text' type="text" />
                     <button className='input__submit' type="submit"><i className='bx bx-search'></i></button>
             </form>
               
