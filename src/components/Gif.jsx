@@ -7,7 +7,7 @@ const Gif = ({data}) => {
             data.map((gif) => (
                 <div className="gif__img" key={gif.id}>
                     <div className="gif__container">
-                    <img src={gif.images.downsized.url} />
+                    <img src={gif.images.original.url} />
                     <p>{gif.title}</p>
                     </div>
                 </div>
